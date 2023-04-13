@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 20px;
+    color: azure;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color:azure;
+    text-decoration: none;
+}
+header li a:hover{
+    background-color: rgba(89, 102, 126, 0.616);
+    padding: 8px;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* section */ 
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:300;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+.home{
+    background-color: #2f3640;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+}
+
+.home:hover{
+    text-decoration: underline;
+}
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a{
+    background-color: rgb(40, 88, 44);
+}
+
+#economy{
+    background-color: rgba(243, 227, 9, 0.25);
+}
+#economy .articles article a{
+    background-color: rgba(243, 134, 9, 1);
+}
+
+#entertainment{
+    background-color: rgba(121, 25, 200, 0.253);
+}
+
+#entertainment .articles article a{
+    background-color: blueviolet;
+}
+
+#technology{
+    background-color: rgba(8, 31, 238, 0.2);
+}
+
+#technology .articles article a{
+    background-color: rgb(68, 68, 163);
+}
