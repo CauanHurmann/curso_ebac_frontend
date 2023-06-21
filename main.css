@@ -1,0 +1,64 @@
+* {
+    background-color:rgba(179, 199, 194, 0.801);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Staatliches', cursive;
+}
+
+form {
+    padding: 16px 0;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input {
+    background-color: #fff;
+    width: 250px;
+}
+
+button {
+    
+    background-color:rgba(105, 105, 105, 0.808);
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(105, 105, 105);
+}
+
+input, button {
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+header, form {
+    margin-bottom: 20px;
+}
+
+.lista li {
+    cursor: pointer;
+    padding: 4px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.item-concluido {
+    text-decoration: line-through;
+}
