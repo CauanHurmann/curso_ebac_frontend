@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 960px;
+    min-height: 100%;
+    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header,
+footer {
+    padding: 24px;
+    text-align: center;
+    background-color: darkorange;
+    color: #fff;
+}
+
+.formulario {
+    margin-bottom: 8px;
+}
+
+.formulario label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.formulario input {
+    width: 420px;
+    display: block;
+    padding: 8px;
+}
+
+form {
+    margin-top: 60px;
+    max-width: 800px;
+    min-height: 100vh;
+}
+
+form button{
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px 0;
+    border: none;
+    background-color: darkorange;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: rgba(255, 140, 0, 0.466);
+    transition: 0.5s;
+}
+
+footer {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mensagem-erro {
+    color: red;
+}
